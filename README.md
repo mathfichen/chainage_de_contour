@@ -1,4 +1,4 @@
-# MySoftware
+# Chaînage Efficace de Contour
 
 This repository contains the archived source code of Chaînage Efficace de Contour, a legacy Software developped as of 1970 at Inria. 
 MySoftware source code can be discovered via two different angles, materialized as two different branches. 
