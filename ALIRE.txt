@@ -1,0 +1,52 @@
+Contrairement aux autres documents, datant de 1985 à 1991, ALIRE.txt a été rédigé rétrospectivement en 20025 par Gérard Giraudon.  
+
+
+Ce logiciels travaillent avec une bibliothèque de fonction image de base 
+ qui s'appelle inrimage (voir makefile), surtout pour tout ce qui est E/S
+ et la manipulation d'image
+
+Cette bibliothèque n'est pas incluse dans l'archive pour Software Heritage
+Je n'ai pas fait de copie des cette bibliothèque
+
+- Les chaines (ou segments) sont stockées sur disque en utilisant une
+  bibliothèque appelée (DZV pour Descripteurs de Zones Variables)
+
+
+Pour les programmes de chainages, il y a quatre parties :
+
+maillon.h  : fichier a inclure : defini la structure chaine en memoire 
+             centrale (union de structure)
+
+chaines.c : est le programme principal (recuperation des parametres et 
+            ouverture de l'image
+		lfmt[0] = nbre de colonnes de l'image
+		lfmt[1] = nbre de lignes de l'image
+
+chaic.c   : est en fait une bibliotheque de petits programmes que l'on va 
+            utiliser en permanence. Il definit aussi les structures de
+            chaines en memoire centrale.
+
+fonct    : directory qui contient les autres programmes
+          *) chapri.c : est appele par chaines.c
+              regle les E/S (lecture image)
+	  *) res.c  : l'automate
+	  *) afus....c : diverses implementation de la fusion (acces par lienc7
+                      depuis chapri.c)
+          *) bruit...c : diverses implementation de l'elimination des chaines
+
+          *) ecrcha.c  : ecriture des chaines sur disque
+
+          *) segec2_.c : en fonction des parametres : calcul des l'approximation 
+                    polygonale par chaines :
+                    programmes apang2 ou strip (calcul du point de coupure)
+                    carre.c : approximation au moindres carres
+
+
+
+Il y a un dossier qui contient spécifiquement le logiciel d'approximation polygonale qui prend en entrée les chaines générées par le chaines sauvegardés sur disque dur.
+Les principes du logiciel d'approximation est décrit dans le rapport 
+https://inria.hal.science/inria-00074940v1/document
+
+
+
+
