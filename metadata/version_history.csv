@@ -1,0 +1,3 @@
+directory name,author name,author email,date,curator name,curator email,release tag,commit message
+v1.0,Me,me@example.com,09/16/1972 09:54:00,The Curation Team,l.bussi1@studenti.unipi.it,1.0,"First release|First commit description|and so on"
+v1.1,Me,me@example.com,10/16/1972 09:14:00,The Curation Team,l.bussi1@studenti.unipi.it,1.1,"Second release|Second commit description|and so on"
