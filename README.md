@@ -1,6 +1,6 @@
 # MySoftware
 
-This repository contains the archived source code of MySoftware, a legacy Software developped as of 1970 at UniversityName. 
+This repository contains the archived source code of Chaînage Efficace de Contour, a legacy Software developped as of 1970 at Inria. 
 MySoftware source code can be discovered via two different angles, materialized as two different branches. 
 
 ## Main Branch
