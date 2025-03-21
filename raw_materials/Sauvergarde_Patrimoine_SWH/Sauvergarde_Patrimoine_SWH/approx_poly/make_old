@@ -1,0 +1,24 @@
+a=$(INRIMAGE)/lib/imaglb7
+b=$(INRIMAGE)/lib/vsysl7
+c=$(INRIMAGE)/lib/entsorl7
+e=$(INRIMAGE)/lib/vsyslc
+p=$(HOME)/lib/dzv.a
+v=$(HOME)/lib/chaine_V0.a
+w= -lcore -lsuntool -lsunwindow -lpixrect 
+q= -lF77 -lI77 -lm
+
+.SUFFIXES : .o .c .f
+
+.f.o :
+	f77 -c -g $*.f
+.c.o :
+	cc -c -I$(HOME)/dzv/h -I. -I$(HOME) $*.c
+		
+
+apoly:  apoly.o approx.o  $v $p  $h  $a $c $b $e 
+	cc apoly.o approx.o  $v $p $h $a $c $b $e $q -o apoly
+	/bin/mv apoly $(HOME)/bin/
+
+apoly_or:  apoly_or.o $v $p  $h  $a $c $b $e 
+	cc apoly_or.o $v $p $h $a $c $b $e $q -o apoly_or
+	/bin/mv apoly_or $(HOME)/bin/
