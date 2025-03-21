@@ -1,3 +1,5 @@
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/mathfichen/chainage_de_contour/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/mathfichen/chainage_de_contour)
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:e8eadd3f0c136b529a3341e1fff17c5bb0e3870d/)](https://archive.softwareheritage.org/swh:1:dir:e8eadd3f0c136b529a3341e1fff17c5bb0e3870d;origin=https://github.com/mathfichen/chainage_de_contour;visit=swh:1:snp:3d1466c52743a51c7b65ebd09ae54ccfe9dd10a8;anchor=swh:1:rev:4fe41edbdd9119634be50a1323f6649a8cd01091)
 # Chaînage Efficace de Contour
 
 This repository contains the archived source code of Chaînage Efficace de Contour, a code developed between 1985 and 1991 at Inria on the topic of contour chaining in the field of computer vision. Autors are Gérard Giraudon (Inria), Philippe Garnesson (Inria) and Patrick Cipière (Inria).
