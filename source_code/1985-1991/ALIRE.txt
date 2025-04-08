@@ -1,4 +1,4 @@
- 
+Contrairement aux autres documents, datant de 1985 à 1991, ALIRE.txt a été rédigé rétrospectivement en 20025 par Gérard Giraudon.  
 
 
 Ce logiciels travaillent avec une bibliothèque de fonction image de base 
